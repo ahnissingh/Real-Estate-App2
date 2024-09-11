@@ -33,7 +33,7 @@ const GlobalProvider = ({children}) => {
                 console.log(error);
             })
             .finally(() => {
-                setIsLoading(false);
+                setIsLoading(false);;
             });
     }, []);
 
